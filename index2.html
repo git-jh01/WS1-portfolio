@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style2.css">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function () {
+                emailjs.init({
+                    publicKey: "BtGhAw5UQv3jitagP",
+                });
+            })();
+        </script>
+        <title>Jan Henrik - Portfolio</title>
+    </head>
+
+    <body>
+        <header>
+            <a href="#home" class="logo">JAN HENRIK L.</a>
+            <a href="index.html" class="btn">Switch</a>
+
+            <div class='bx bx-menu' id="menu-icon"></div>
+
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </header>    
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, I am</h3>
+                <h1>JAN HENRIK LILLES</h1>
+                <h3>I'm a <span class="typed-text"></span></h3>
+
+                <p>Currently a student in Bachelor of Science in Information Technology. Trying to grow my proficiency in
+                    both
+                    back-end and front-end development while seeking to build in demand projects.</p>
+
+                <div class="social-media">
+                    <a href="https://github.com/git-jh01"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.instagram.com/sellil_00/?igsh=ejB1OXd0cHFpYmdu"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.facebook.com/janhenrik08"><i class='bx bxl-facebook'></i></a>
+                </div>
+
+                <a href="C:\Users\janhe\OneDrive\Desktop\My portfolio\Assets\_Resume.pdf" class="btn">Download CV</a>
+            </div>
+
+            <div class="home-img">
+                <img src="Imgsrc/profile-image.png" alt="Profile image">
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="Imgsrc/profile-image.png" alt="Profile image">
+            </div>
+
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>I'm a <span class="multiple-texts"></span></h3>                <p>An enthusiastic Web Developer fascinated on back-end development. Being dedicated on trying to grow my proficiency in both front-end and back-end development while seeking to build in demand projects. I enjoy having an analytical skills and I like using my great problem-solving abilities for ensuring a good solution.</p>
+                <a href="#contact" class="btn">Reach Out</a>
+            </div>
+
+        </section>
+
+        <section class="portfolio" id="portfolio">
+
+            <h2 class="heading">My <span>Portfolio</span></h2>
+
+            <div class="portfolio-content">
+
+                <div class="row">
+                    <img src="Imgsrc/Picture1.png" alt="Image">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h5>Wireframe and Storyboard for Events Calendar System</h5>
+                        </div>
+                    </div>
+                    <h4>UI/UX Design Concepts/<br>Wireframe Showcase</h4>
+                </div>
+                
+                <div class="row">
+                    <img src="Imgsrc/Picture3.jpg" alt="Image">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h5>Data Structure & Algorithm implemented in Java</h5>
+                        </div>
+                    </div>
+                    <h4>Simple Bank Queueing System Simulation</h4>
+                </div>
+
+                <div class="row">
+                    <img src="Imgsrc/Picture2.png" alt="Image">
+                    <div class="main-row">
+                        <div class="row-text">
+                            <h5>Web-Based System</h5>
+                        </div>
+                    </div>
+                    <h4>Web-Based Lost and Found System</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="contact" id="contact">
+
+            <h2 class="heading">Contact <span>Me</span></h2>
+
+            <form action="#" id="contactForm">
+                <div class="input-box">
+                    <input type="text" id="fullName" placeholder="Full Name" required>
+                    <input type="email" id="email_id" placeholder="Email Address" required>
+                </div>
+
+                <textarea name="Message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+
+                <input type="submit" value="Send Message" class="btn" onclick="SendMail()">
+            </form>
+        </section>
+
+        <footer class="footer">
+            <div class="social">
+                <a href="https://github.com/git-jh01"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/sellil_00/?igsh=ejB1OXd0cHFpYmdu"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com/janhenrik08"><i class='bx bxl-facebook'></i></a>
+            </div>
+
+            <p class="copyright">
+                &copy; Jan Henrik | All Rights Reserved
+            </p>
+        </footer>
+
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script src="script2.js"></script>
+    </body>
+
+</html>
